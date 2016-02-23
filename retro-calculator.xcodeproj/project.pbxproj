@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		899173D31C764D41006775EA /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 899173D21C764D41006775EA /* btn.wav */; };
 		89BCCB531C74AF510088FCFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BCCB521C74AF510088FCFA /* AppDelegate.swift */; };
 		89BCCB551C74AF510088FCFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BCCB541C74AF510088FCFA /* ViewController.swift */; };
 		89BCCB581C74AF510088FCFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BCCB561C74AF510088FCFA /* Main.storyboard */; };
 		89BCCB5A1C74AF510088FCFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BCCB591C74AF510088FCFA /* Assets.xcassets */; };
 		89BCCB5D1C74AF510088FCFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BCCB5B1C74AF510088FCFA /* LaunchScreen.storyboard */; };
+		89BCCB651C74C25A0088FCFA /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89BCCB641C74C2590088FCFA /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		899173D21C764D41006775EA /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		89BCCB4F1C74AF510088FCFA /* retro-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "retro-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BCCB521C74AF510088FCFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89BCCB541C74AF510088FCFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		89BCCB591C74AF510088FCFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89BCCB5C1C74AF510088FCFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89BCCB5E1C74AF510088FCFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BCCB641C74C2590088FCFA /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		89BCCB511C74AF510088FCFA /* retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				89BCCB641C74C2590088FCFA /* Minecraft.ttf */,
+				899173D21C764D41006775EA /* btn.wav */,
 				89BCCB521C74AF510088FCFA /* AppDelegate.swift */,
 				89BCCB541C74AF510088FCFA /* ViewController.swift */,
 				89BCCB561C74AF510088FCFA /* Main.storyboard */,
@@ -123,8 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899173D31C764D41006775EA /* btn.wav in Resources */,
 				89BCCB5D1C74AF510088FCFA /* LaunchScreen.storyboard in Resources */,
 				89BCCB5A1C74AF510088FCFA /* Assets.xcassets in Resources */,
+				89BCCB651C74C25A0088FCFA /* Minecraft.ttf in Resources */,
 				89BCCB581C74AF510088FCFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +260,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CH.retro-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -263,6 +272,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CH.retro-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -285,6 +295,7 @@
 				89BCCB631C74AF510088FCFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
